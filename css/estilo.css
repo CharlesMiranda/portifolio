@@ -1,0 +1,92 @@
+html, body, h1, h2, h3, h4, h5, h6, header, nav, section, aside, article, footer, ul, li {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: rgb(182,182,182);
+    background-color: rgb(175,179,182);
+}
+
+section article{
+    margin-top: 30%;
+}
+
+hr {
+    width: 100%;
+    border-width: 0; 
+    height: 1px;
+    border-top-width: 1px;
+    color: rgb(252,252,252);
+    float: left;
+    margin-top: -26%;
+}
+
+.conteudo{    
+    background-color: rgb(252,252,252); 
+    width: 400px;
+    margin: auto;
+    padding: 2% 0 2% 0;
+    border-radius: 10px;
+}
+
+.opcoes, .subtitulo{    
+    margin-top: 5%;
+}
+
+.center{    
+    text-align: center;
+}
+
+.foto{
+    border-radius: 100px;
+}
+
+
+@media (max-height: 1024px){
+    section article{
+        margin-top: 22%;
+    }
+
+}
+
+
+@media (max-height: 768px){
+
+    section article{
+        margin-top: 8%;
+    }
+
+}
+
+@media (max-height: 600px){
+
+    section article{
+        margin-top: 30%;
+    }
+    
+    .conteudo{
+        width: 80%;
+    }
+
+}
+
+@media(max-height: 480px){
+
+    section article{
+        margin-top: 8%;
+    }
+
+    .conteudo{
+        margin-bottom: 8%;
+    }
+
+}
+
+
+
+
+
